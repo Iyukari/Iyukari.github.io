@@ -1,0 +1,62 @@
+body{
+    background-color: lightpink;
+}
+
+h1{
+    color: rgb(216, 99, 117);
+    position: relative;
+    text-align: center;
+}
+
+h2{
+    color: rgb(216, 99, 117);
+    position: relative;
+    top: -400px;
+    text-align: center;
+}
+
+.coracao {
+    margin: 200px;
+    background-color: lightcoral;
+    height: 200px;
+    transform: rotate(-45deg);
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -80px; 
+    left: 450px;
+}
+
+.coracao:before,
+.coracao:after {
+    content: "";
+    background-color: lightcoral;
+    border-radius: 50%;
+    height: 200px;
+    position: absolute;
+    width: 200px;
+}
+
+.coracao:before {
+    top: -100px;
+}
+
+.coracao:after {
+    left: 100px;
+}
+
+.me{
+    width: 175px;
+    height: 175px;
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+    top:-500px;
+    left: 665px;
+    
+}
+
+
+
