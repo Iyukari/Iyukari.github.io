@@ -8,8 +8,22 @@ h1{
     text-align: center;
 }
 
+li{
+    color: white;
+    position: relative;
+    text-align: center;
+    top:-400px;
+}
+
+p{
+    color: white;
+    position: relative;
+    text-align: center;
+    top:-400px;
+}
+
 h2{
-    color: rgb(216, 99, 117);
+    color:whitesmoke;
     position: relative;
     top: -400px;
     text-align: center;
@@ -58,5 +72,13 @@ h2{
     
 }
 
-
+section{
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
