@@ -43,8 +43,7 @@ h2{
     left: 450px;
 }
 
-.coracao:before,
-.coracao:after {
+.coracao:before, .coracao:after {
     content: "";
     background-color: lightcoral;
     border-radius: 50%;
