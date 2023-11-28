@@ -4,34 +4,30 @@ body{
 
 h1{
     color: rgb(216, 99, 117);
-    position: relative;
     text-align: center;
 }
 
 li{
     color: white;
-    position: relative;
     text-align: center;
-    top:-400px;
+    font-size: 20px;
 }
 
 p{
     color: white;
-    position: relative;
     text-align: center;
-    top:-400px;
+    font-size: 20px;
 }
 
 
 h2{
     color:whitesmoke;
-    position: relative;
-    top: -400px;
     text-align: center;
+    margin-top: 70px;
 }
 
 .coracao {
-    margin: 200px;
+    margin: 70px;
     background-color: lightcoral;
     height: 200px;
     transform: rotate(-45deg);
@@ -40,9 +36,14 @@ h2{
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -80px; 
-    left: 450px;
 }
+
+.text{
+    text-align:justify;
+    align-items: flex-start;
+    font-size: 25px;
+}
+
 
 .coracao:before, .coracao:after {
     content: "";
@@ -66,19 +67,31 @@ h2{
     height: 175px;
     display: flex;
     border-radius: 50%;
-    position: relative;
-    top:-500px;
-    left: 665px;
-    
+    z-index: 2;
+    transform: rotate(45deg);
 }
-
-section{
-    height: 1000px;
-    width: 1000px;
+ .meio{
     display: flex;
-    border-radius: 30px;
-    background-color: white;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+    justify-content: center;
+    align-items: center;
+ }
 
+ .img{
+    margin: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5%;
+ }
+
+.img1{
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5%;
+}
